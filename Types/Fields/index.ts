@@ -10,6 +10,8 @@ export interface IFields {
   AutoParagraph?: boolean;
   IntegrationCustomFieldId?: number;
   Dynamic?: boolean;
+  ProductGroupId?: boolean;
+  ProductFamlilyId?: boolean;
   NotNullable?: boolean;
   GeneratedFormula?: boolean;
   InlineEditTriggerDocumentGeneration?: boolean;
