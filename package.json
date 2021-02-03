@@ -4,10 +4,10 @@
   "description": "A Collection of Ploomes types to be used in Typescript",
   "main": "index.ts",
   "scripts": {
+    "update-publish": "npm version patch && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "update-publish": "npm version patch && npm publish",
     "type": "git",
     "url": "git+https://github.com/Ploomes/PloomesTSTypes.git"
   },
