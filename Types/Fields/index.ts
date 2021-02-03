@@ -11,7 +11,7 @@ export interface IFields {
   IntegrationCustomFieldId?: number;
   Dynamic?: boolean;
   ProductGroupId?: number;
-  ProductFamlilyId?: number;
+  ProductFamilyId?: number;
   NotNullable?: boolean;
   GeneratedFormula?: boolean;
   InlineEditTriggerDocumentGeneration?: boolean;
