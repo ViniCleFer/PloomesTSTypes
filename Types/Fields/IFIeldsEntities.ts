@@ -10,6 +10,7 @@ interface Native {
   Importable?: boolean;
   QuickFormId?: number;
   GenderId?: number;
+  IsLoggedResponse?: boolean;
 }
 
 interface NonNative {}
