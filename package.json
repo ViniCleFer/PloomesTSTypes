@@ -1,6 +1,6 @@
 {
   "name": "@ploomes/ploomeststypes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Collection of Ploomes types to be used in Typescript",
   "main": "index.ts",
   "scripts": {
