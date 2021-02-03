@@ -4,6 +4,7 @@ import { IFilters } from '../Filters';
 export interface IFields {
   Key?: string;
   Id?: number;
+  Permanent?: boolean;
   Dynamic?: boolean;
   NotNullable?: boolean;
   Name?: string;
