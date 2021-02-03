@@ -5,6 +5,7 @@ export interface IFields {
   Key?: string;
   Id?: number;
   Permanent?: boolean;
+  Integration?: boolean;
   Dynamic?: boolean;
   NotNullable?: boolean;
   Name?: string;
