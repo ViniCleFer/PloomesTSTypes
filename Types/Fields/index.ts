@@ -6,12 +6,24 @@ export interface IFields {
   Id?: number;
   Permanent?: boolean;
   Integration?: boolean;
+  DisplayProperty?: boolean;
+  AutoParagraph?: boolean;
+  IntegrationCustomFieldId?: number;
   Dynamic?: boolean;
   NotNullable?: boolean;
+  GeneratedFormula?: boolean;
+  InlineEditTriggerDocumentGeneration?: boolean;
+  UseCheckbox?: boolean;
   Name?: string;
+  Label?: string;
   EntityId?: number;
   FilterId?: number;
   Filter?: IFilters;
+  ColumnSize?: number;
+  Wide?: boolean;
+  Importable?: boolean;
+  Filterable?: boolean;
+  FormFilterable?: boolean;
   Entity?: IFieldsEntities;
   SecondaryEntityId?: number;
   SecondaryEntity?: IFieldsEntities;
@@ -60,7 +72,9 @@ export interface IFields {
 export interface IFieldsEntitiesPaths {
   Id?: number;
   EntityId?: number;
+  Entity?: IFieldsEntities;
   DestinationEntityId?: number;
+  DestinationEntity: IFieldsEntities;
   Default?: boolean;
   Fields?: Array<IFieldsEntitiesPathsFields>;
 }
@@ -142,4 +156,4 @@ export type INativeTypeValues =
   | 'DateTimeValue'
   | 'BoolValue';
 
-export {IFieldsEntities} from './IFIeldsEntities'
+export type {IFieldsEntities} from './IFIeldsEntities'

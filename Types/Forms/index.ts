@@ -31,11 +31,14 @@ export interface IFormsFields {
   ProductPartCode?: number;
   ProductPartName?: string;
   ProductPartGroupIds?: string;
+  ProductPartUseSelector?: boolean;
+  ProductPartOnlyOnePart?: boolean;
   GroupNumber?: number;
   FieldKey?: string;
   Ordination?: number;
   QuickFormId?: number;
   QuickForm?: IForms;
+  Wide?: boolean;
 }
 export interface IFormsSections {
   Id?: number;
