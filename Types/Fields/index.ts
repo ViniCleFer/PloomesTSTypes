@@ -5,6 +5,7 @@ export interface IFields {
   Key?: string;
   Id?: number;
   Dynamic?: boolean;
+  NotNullable?: boolean;
   Name?: string;
   EntityId?: number;
   FilterId?: number;
@@ -65,6 +66,7 @@ export interface IFieldsEntitiesPathsFields {
   Id?: number;
   PathId?: number;
   FieldKey?: string;
+  Field?: IFields;
   Ordination?: number;
 }
 export interface IFieldsTypes {
