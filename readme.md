@@ -2,7 +2,7 @@
 
 Instalação
 
-`npm install @ploomes/ploomeststypes --dev`
+`npm install https://github.com/ploomes/ploomeststypes`
 
 Uso
 
