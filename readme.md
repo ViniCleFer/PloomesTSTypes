@@ -9,9 +9,12 @@ Uso
 `import PloomesTypes from '@ploomes/ploomestdtypes`
 
 ```TS
-const contact: PloomesTypes.IContacts = { Name: "Hello" }
+const { IContacts, IDeals, IFields } = PloomesTypes
 
-const deal: PloomesTypes.IDeals = { Title: "World" }
+const contact: IContacts = { Name: "Hello" }
+const deal: IDeals = { Title: "World" }
+const field: IFields = { Key: "hello_world_field" }
 
-const field: PloomesTypes.IFields = { Key: "hello_world_field" }
+
+contact.Title // vai acusar um erro;
 ```
