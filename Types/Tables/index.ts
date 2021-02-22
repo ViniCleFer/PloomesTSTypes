@@ -1,4 +1,15 @@
+import { IFields } from '../Fields';
 import { IFilters } from '../Filters';
+
+export interface ITablesFields {
+  Id: number;
+  TableId: number;
+  FieldKey: string;
+  Ordination: number;
+  AscendingSorting: boolean | null;
+  Bold: boolean;
+  Field: IFields
+}
 
 export interface ITables {
   Id?: number;
@@ -6,6 +17,7 @@ export interface ITables {
   EntityId?: number;
   FilterId?: number;
   Filter?: IFilters;
+  Fields: ITablesFields[]
   CreatorId?: number;
   MaximumResultsPerPage?: number;
   Url?: string;
