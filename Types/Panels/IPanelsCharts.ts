@@ -1,6 +1,7 @@
 import { IDealsPipelines } from "../Deals";
 import { IUsers } from "../Users";
 import { IPanels } from "./IPanels";
+import { IPanelsChartsMetrics } from "./IPanelsChartsMetrics";
 
 interface Native {
     Id: number;
@@ -23,7 +24,7 @@ interface Native {
       Panel: IPanels
       Type: any
       DealPipeline: IDealsPipelines
-      Metrics: any[]
+      Metrics: IPanelsChartsMetrics[]
   }
   
   interface RealmType {}
