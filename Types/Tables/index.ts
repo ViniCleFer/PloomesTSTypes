@@ -1,4 +1,4 @@
-import { IFields } from '../Fields';
+import { IFields, IFieldsEntities } from '../Fields';
 import { IFilters } from '../Filters';
 
 export interface ITablesFields {
@@ -15,9 +15,10 @@ export interface ITables {
   Id?: number;
   Name?: string;
   EntityId?: number;
+  Entity?: Partial<IFieldsEntities>
   FilterId?: number;
   Filter?: IFilters;
-  Fields: ITablesFields[]
+  Fields?: ITablesFields[]
   CreatorId?: number;
   MaximumResultsPerPage?: number;
   Url?: string;
