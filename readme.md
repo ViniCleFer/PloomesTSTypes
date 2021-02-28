@@ -6,10 +6,10 @@ Instalação
 
 Uso
 
-`import PloomesTypes from '@ploomes/ploomestdtypes`
+`import PloomesTypes from '@ploomes/ploomestdtypes';`
 
 ```TS
-const { IContacts, IDeals, IFields } = PloomesTypes
+const { IContacts, IDeals, IFields } = PloomesTypes;
 
 const contact: IContacts = { Name: "Hello" }
 const deal: IDeals = { Title: "World" }
